@@ -20,7 +20,7 @@ export default async function add(req, res) {
 
         // fetch data
         const { uid, name, quantity, price, expiryDate, uploadOn } = req.body;
-        // console.log(req.body);
+        //console.log(req.body);
 
         // find appropiate user for the addition
         User.findByIdAndUpdate(

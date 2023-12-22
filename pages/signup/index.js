@@ -55,7 +55,8 @@ export default function SignUp() {
                         break;
                     default:
                         setError('Something went wrong.... Please try again')
-                }
+                        setError(err.code);
+                    }
                 emailRef.current.value = '';
             })
         setLoading(false)

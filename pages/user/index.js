@@ -25,7 +25,7 @@ export default function User() {
         sale: 0
     });
 
-    // console.log(auth.currentUser.uid);
+    console.log("UID:"+auth.currentUser.uid);
 
 
     useEffect(() => {
